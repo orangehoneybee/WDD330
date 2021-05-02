@@ -1,0 +1,25 @@
+Java sccript 
+
+Java script is cross platform object oriented.Js has a libriary of obects array, date math and such so no import needed. 
+simi colins are important unlike in python. As well as with loops and such parenthsis and curly braces are needed instead of just colons.
+
+ch3:1 sand box
+function min(a, b) {
+  if (a < b) return a;
+  else return b;
+}
+
+console.log(min(0, 10));
+// → 0
+console.log(min(0, -10));
+// → -10
+
+function reverseArray(array) {
+  let rev = [];
+  x = 0;
+  for (let i = array.length - 1; i >= 0; i--) {
+    rev[x] = array[i];
+    x++;
+  }
+  return rev;
+}
