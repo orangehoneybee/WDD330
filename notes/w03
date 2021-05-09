@@ -1,0 +1,27 @@
+An object in JavaScript is a self-contained set of related values and functions. To create an object literal, simply enter a pair of curly braces
+
+
+
+
+const spiderman = {};
+
+(In JavaScript, `const` means that the identifier can't be reassigned.)
+
+It’s also possible to create an object using a constructor function. This example will also create an empty object:
+
+const spiderman = new Object();
+(first way is prefered less typing and such)
+
+
+
+To call an object’s method we can also use dot or bracket notation. Calling a method is the same as invoking a function, so parentheses need to be placed after the method name:
+
+superman.fly()
+<< 'Up, up and away!'
+superman['fly']()
+<< 'Up, up and away!'
+
+
+The Document Object Model, or DOM for short, represents an HTML document as a network of connected nodes that form a tree-like structure.
+
+
