@@ -1,0 +1,19 @@
+Further Functions
+        functions arefirst-class objects
+        The call() method can be used to set the value of this inside a function to an object that is provided as the first argument
+        If a function doesn’t refer to an object as this in its body, it can still be called using the call() method, but you need provide null as its first argument
+        Immediately Invoked Function Expression– or IIFE – (pronounced 'iffy') is an anonymous function that is invoked as soon as it’s defined
+        An IIFE can be used to enclose a block of code inside its own private scope so it doesn’t interfere with any other part of the program
+        recursive function is one that invokes itself until a certain condition is met
+        Collatz Conjecture - every positive integer will create a sequence that finishes in this loop
+         'spaghetti code' -  more than one callback is used in the same function, resulting in a large number of nested blocks that are difficult to comprehend
+        Callback hell is the term used to refer to this tangled mess of code
+        Promises can be used instead of callbacks to deal with multiple asynchronous actions in sequence. They also provide a nicer mechanism for handling errors
+        Functions that return other functions are known as higher-order functions
+        A closure is the process of keeping a reference to a variable available outside the scope of the function it was originally defined in
+    
+    AJAX
+        a technique that allows web pages to communicate asynchronously with a server, and it dynamically updates web pages without reloading
+        The data can be sent in many forms, but it is usually in JSON
+        requests can be made using the Fetch API
+        can retrieve data using a GET request, or send data using a POST request
