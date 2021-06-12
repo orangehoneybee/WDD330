@@ -1,0 +1,17 @@
+Transforms and Transitions
+        transform property lets you lets you translate, rotate, scale, and/or skew any element on the page
+        Transforms don’t work on inline elements, just add display: inline-block;
+        rotate() function rotates an element around the point of origin by a specified angle value
+        skew(x,y) function specifies a skew along the x and y axes
+        transform-origin:  control the origin from which your transforms are applied
+        The order of transform functions does matter
+        transition-property property defines the CSS properties of the element that should be transitioned
+        transition-duration property sets how long the transition will take
+        transition-timing-function lets you control the pace of the transition in even more granular detail
+        A keyframe is a snapshot that defines a starting or end point of any smooth transition
+    
+
+    Canvas, SVG, and Drag and Drop
+        Why would I need to use canvas? 
+        Radians are a unit used to measure angles, and the symbol π denotes a measurement in radians
+        draggable isnota Boolean attribute
